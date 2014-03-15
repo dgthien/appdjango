@@ -1,21 +1,22 @@
-Huong dan cai dat:
+Hệ thống yêu cầu:
+- Cài git
+- Cài python, MySql
+- Cài framework Django
 
-Chay lenh checkout code:
+Hướng dẫn cài đặt:
+
+checkout code:
 
 git clone git@github.com:dgthien/appdjango.git
 
 
-He thong yeu cau:
-- Cai python
-- Cai framework Django
-
-Chinh sua cac cau hinh trong file setting.py
+Chỉnh sửa cấu hình trong file setting.py
 
 /application/settings.py
 
-Tao database application trong MySql
+Tạo database 'application' trong MySql
 
-Cau hinh Databases (current is MySQL):
+Cấu hình Databases (current is MySQL):
 
 'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -37,7 +38,7 @@ http://localhost:8000/polls
 Backend
 http://localhost:8000/admin
 
-Storage config:
+Cấu hình Storage config:
 
 AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
