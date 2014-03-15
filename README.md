@@ -1,9 +1,21 @@
+Huong dan cai dat:
 
-Config system:
+Chay lenh checkout code:
+
+git clone git@github.com:dgthien/appdjango.git
+
+
+He thong yeu cau:
+- Cai python
+- Cai framework Django
+
+Chinh sua cac cau hinh trong file setting.py
 
 /application/settings.py
 
-Databases (current is MySQL):
+Tao database application trong MySql
+
+Cau hinh Databases (current is MySQL):
 
 'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -16,6 +28,7 @@ Databases (current is MySQL):
 
 Start server
 
+python manage.py syncdb
 python manage.py runserver 8000
 
 Frontend
